@@ -1,12 +1,11 @@
 import * as C from './styles';
 
-type Props = () => {
+type Props = {
   title: string;
   value: number;
 };
 
-export const ResumeItem = ( { title, value }: Props ) => {
-
+export const ResumeItem = ({ title, value }: Props) => {
   return(
     <C.Container>
       <C.Title> { title } </C.Title>
