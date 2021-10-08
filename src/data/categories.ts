@@ -5,5 +5,5 @@ export const categories: Category = {
   rent: { title: 'Aluguel' , color: 'brown' , expense: true },
   salary: { title: 'Salário' , color: 'green' , expense: false },
   house: { title: 'Dispesa de casa' , color: 'orange' , expense: true },
-  other: { title: 'Outros' , color: 'light-red' , expense: true },
+  other: { title: 'Outros' , color: 'purple' , expense: true },
 }
